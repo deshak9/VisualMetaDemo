@@ -15,4 +15,4 @@
 
 /*@import 'styles/custom-forms-extended';
 @import 'styles/toasters';
-*/.loader{width:100%;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;margin-top:10rem}.center-align{text-align:center}
+*/.loader{width:100%;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;margin-top:10rem}.center-align{text-align:center}.font-s-n{font-size:.875rem}.font-size-medium{font-size:15px}.font-s-l{font-size:19px}form label{font-size:.875rem;font-weight:700}form input[type=text]{font-size:1rem}form textarea{font-size:.875rem}
