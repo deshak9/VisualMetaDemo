@@ -1,0 +1,66 @@
+// FLEXBOX UTILITIES
+.flex-spacer {
+  margin: auto;
+}
+
+//Cursor pointer
+.c-pointer {
+  cursor: pointer;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+// SPACING UTILITIES
+.p-t-0-5 {
+  padding-top: 0.5rem !important;
+}
+
+.p-l-0-5 {
+  padding-left: 0.5rem !important;
+}
+
+.p-r-0-5 {
+  padding-right: 0.5rem !important;
+}
+
+.p-b-0-5 {
+  padding-bottom: 0.5rem !important;
+}
+
+.p-a-0-5 {
+  padding: 0.5rem !important;
+}
+
+.m-t-0-5 {
+  margin-top: 0.5rem !important;
+}
+
+.m-l-0-5 {
+  margin-left: 0.5rem !important;
+}
+
+.m-r-0-5 {
+  margin-right: 0.5rem !important;
+}
+
+.m-b-0-5 {
+  margin-bottom: 0.5rem !important;
+}
+
+.m-a-0-5 {
+  margin: 0.5rem !important;
+}
+
+

@@ -1,0 +1,15 @@
+@import "../../styles";
+
+.help-message {
+  margin-top: 5%;
+  text-align: center;
+  & img {
+    max-width: 100%;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .card {
+    min-width: 40% !important;
+  }
+}

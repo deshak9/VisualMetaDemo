@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins/breakpoints";
+@import '~bootstrap/scss/bootstrap-grid';
+@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/mixins/hover";
+@import "~bootstrap/scss/mixins/table-row";
+@import 'styles/colors';
+@import 'styles/utils';
+
+/*@import 'styles/custom-forms-extended';
+@import 'styles/toasters';
+*/
+body {
+}
+
+.loader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.font-s-n {
+  font-size: $font-size-sm;
+}
+
+.font-size-medium {
+  font-size: 15px;
+}
+
+.font-s-l {
+  font-size: 19px;
+}
+
+.title-case {
+  //text-transform: titlecase;
+}
+
+form label {
+  font-size: $font-size-sm;
+  font-weight: $font-weight-bold;
+}
+
+form input[type="text"] {
+  font-size: $font-size-base;
+}
+
+form textarea {
+  font-size: $font-size-sm;
+}

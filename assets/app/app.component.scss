@@ -1,0 +1,25 @@
+@import "../styles";
+
+@include media-breakpoint-down(sm) {
+  .page {
+    max-width: 95%;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .page {
+    max-width: 85%;
+  }
+}
+
+.header {
+  height: 60px;
+  line-height: 60px;
+  justify-content: center;
+}
+
+.content {
+  background: #FAFAFA;
+  border-top: 1px solid #eee;
+  min-height: calc(100vh - 60px);
+}

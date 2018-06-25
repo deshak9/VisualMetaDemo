@@ -1,0 +1,6 @@
+﻿<div class="mt-2 position-fixed alert-msg-host">
+    <div *ngIf="message" class="alert-msg"
+         [ngClass]="{ 'alert': message, 'alert-success': message.type === 'success', 'alert-danger': message.type === 'error' }">
+        {{message.text}}
+    </div>
+</div>

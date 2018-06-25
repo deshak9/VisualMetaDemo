@@ -1,0 +1,21 @@
+﻿<!-- main app container -->
+
+<div class="full-width">
+    <div class="container-fluid header page pl-3 pr-3">
+        <div class="title float-left align-middle">
+            <span><a [routerLink]="[homeLinke]"><img width="150" src="assets/VisualMeta_Logo.png"></a></span>
+        </div>
+        <div class="float-right align-middle" style="margin-top: 2px;font-size:13px;text-transform: uppercase;font-weight: 600;" *ngIf="us.isLoggedIn()">
+            <span class="text-secondary mr-2" style="">Hey {{us.getCurrentUser().firstName}}</span>
+            <span><a (click)="authService.logout()" class="text-primary">Logout</a></span>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="content full-width">
+        <div class="container-fluid page">
+            <alert></alert>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
